@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- 
+root element for xsd validation
+
+<StudentServicesRequestSystem
+    xmlns="http://www.studentservicesrequestsystem.org"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.studentservicesrequestsystem.org
+        studentServicesRequestSystem.xsd">
+-->
+
 <StudentServicesRequestSystem>
 
     <Request studentID="23-00001">

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.studentservicesrequestsystem.org"
+           xmlns="http://www.studentservicesrequestsystem.org"
+           elementFormDefault="qualified">
+
+    <xs:element name="StudentServicesRequestSystem">
+
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="Request" maxOccurs="unbounded">
+
+                    <xs:complexType>
+                        <xs:sequence>
+
+                            <xs:element name="StudentName" type="xs:string"/>
+                            <xs:element name="Course" type="xs:string"/>    
+                            <xs:element name="Year" type="xs:positiveInteger"/>
+                            <xs:element name="Section" type="xs:string"/>
+
+                            <xs:element name="RequestType">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="ID"/>
+                                        <xs:enumeration value="TOR"/>
+                                        <xs:enumeration value="Certificate"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="Status">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="Pending"/>
+                                        <xs:enumeration value="Approved"/>
+                                        <xs:enumeration value="Released"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+
+                            <xs:element name="DateRequested" type="xs:date"/>
+                            <xs:element name="ReleaseDate" type="xs:date"/>
+
+                        </xs:sequence>
+
+                        <xs:attribute name="studentID"
+                                      type="xs:string"
+                                      use="required"/>
+
+                    </xs:complexType>
+
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+
+    </xs:element>
+
+</xs:schema>
