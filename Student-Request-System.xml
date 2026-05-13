@@ -4,6 +4,9 @@
 
     <Request studentID="23-00001">
         <StudentName>Alay, Darryl John D.</StudentName>
+        <Course>BSIT</Course>
+        <Year>1</Year>
+        <Section>A</Section>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-01</DateRequested>
@@ -12,6 +15,9 @@
 
     <Request studentID="23-00002">
         <StudentName>Ang, Marc Louise M.</StudentName>
+        <Course>BSCS</Course>
+        <Year>2</Year>
+        <Section>B</Section>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-02</DateRequested>
@@ -20,6 +26,9 @@
 
     <Request studentID="23-00003">
         <StudentName>Antonio, Rhoanne Nicole R.</StudentName>
+        <Course>BSIT</Course>
+        <Year>3</Year>
+        <Section>C</Section>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
         <DateRequested>2026-05-03</DateRequested>
@@ -28,6 +37,9 @@
 
     <Request studentID="23-00004">
         <StudentName>Avecilla, Carl Ruselle.</StudentName>
+        <Course>BSCS</Course>
+        <Year>4</Year>
+        <Section>A</Section>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-04</DateRequested>
@@ -36,6 +48,9 @@
 
     <Request studentID="23-00005">
         <StudentName>Belleza, Jose Miguel S.</StudentName>
+        <Course>BSIT</Course>
+        <Year>1</Year>
+        <Section>B</Section>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-05</DateRequested>
@@ -44,6 +59,9 @@
 
     <Request studentID="23-00006">
         <StudentName>Beringuela, Marc Ferdinand M.</StudentName>
+        <Course>BSCS</Course>
+        <Year>2</Year>
+        <Section>C</Section>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
         <DateRequested>2026-05-06</DateRequested>
@@ -52,6 +70,9 @@
 
     <Request studentID="23-00007">
         <StudentName>Bermudez, Miguel Carlos R.</StudentName>
+        <Course>BSIT</Course>
+        <Year>3</Year>
+        <Section>A</Section>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-07</DateRequested>
@@ -60,6 +81,9 @@
 
     <Request studentID="23-00008">
         <StudentName>Bolotaolo, Lark L.</StudentName>
+        <Course>BSCS</Course>
+        <Year>4</Year>
+        <Section>B</Section>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-08</DateRequested>
@@ -68,6 +92,9 @@
 
     <Request studentID="23-00009">
         <StudentName>Cacho, Shane Ella Mae F.</StudentName>
+        <Course>BSIT</Course>
+        <Year>1</Year>
+        <Section>C</Section>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
         <DateRequested>2026-05-09</DateRequested>
@@ -76,6 +103,9 @@
 
     <Request studentID="23-00010">
         <StudentName>Cajurao, Alexander Jr.</StudentName>
+        <Course>BSCS</Course>
+        <Year>2</Year>
+        <Section>A</Section>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-10</DateRequested>
@@ -84,6 +114,9 @@
 
     <Request studentID="23-00011">
         <StudentName>Campos, Charles Dustin M.</StudentName>
+        <Course>BSIT</Course>
+        <Year>3</Year>
+        <Section>B</Section>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-11</DateRequested>
@@ -92,6 +125,9 @@
 
     <Request studentID="23-00012">
         <StudentName>Castro, Charl Joven V.</StudentName>
+        <Course>BSCS</Course>
+        <Year>4</Year>
+        <Section>C</Section>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
         <DateRequested>2026-05-12</DateRequested>
@@ -100,6 +136,9 @@
 
     <Request studentID="23-00013">
         <StudentName>Daliva, Joshua F.</StudentName>
+        <Course>BSIT</Course>
+        <Year>1</Year>
+        <Section>A</Section>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-13</DateRequested>
@@ -108,6 +147,9 @@
 
     <Request studentID="23-00014">
         <StudentName>Dantic, Rona Mae B.</StudentName>
+        <Course>BSCS</Course>
+        <Year>2</Year>
+        <Section>B</Section>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-14</DateRequested>
@@ -116,6 +158,9 @@
 
     <Request studentID="23-00015">
         <StudentName>Dawoud, Fares Wael Ibrahim P.</StudentName>
+        <Course>BSIT</Course>
+        <Year>3</Year>
+        <Section>C</Section>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
         <DateRequested>2026-05-15</DateRequested>
@@ -124,6 +169,9 @@
 
     <Request studentID="23-00016">
         <StudentName>De Padua, Charles Jeramy C.</StudentName>
+        <Course>BSCS</Course>
+        <Year>4</Year>
+        <Section>A</Section>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-16</DateRequested>
@@ -132,6 +180,9 @@
 
     <Request studentID="23-00017">
         <StudentName>Eligio, Haley Ryan P.</StudentName>
+        <Course>BSIT</Course>
+        <Year>1</Year>
+        <Section>B</Section>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-17</DateRequested>
@@ -140,6 +191,9 @@
 
     <Request studentID="23-00018">
         <StudentName>Gallardo, Marvin D.</StudentName>
+        <Course>BSCS</Course>
+        <Year>2</Year>
+        <Section>C</Section>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
         <DateRequested>2026-05-18</DateRequested>
@@ -148,6 +202,9 @@
 
     <Request studentID="23-00019">
         <StudentName>Garabillo, Jojana Jean B.</StudentName>
+        <Course>BSIT</Course>
+        <Year>3</Year>
+        <Section>A</Section>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-19</DateRequested>
@@ -156,6 +213,9 @@
 
     <Request studentID="23-00020">
         <StudentName>Guerrero, Ariuz Dean C.</StudentName>
+        <Course>BSCS</Course>
+        <Year>4</Year>
+        <Section>B</Section>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-20</DateRequested>
@@ -164,6 +224,9 @@
 
     <Request studentID="23-00021">
         <StudentName>Gutierrez, Jodie Lyn D.</StudentName>
+        <Course>BSIT</Course>
+        <Year>1</Year>
+        <Section>C</Section>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
         <DateRequested>2026-05-21</DateRequested>
@@ -172,6 +235,9 @@
 
     <Request studentID="23-00022">
         <StudentName>Jaroda, Jhanna Rayne B.</StudentName>
+        <Course>BSCS</Course>
+        <Year>2</Year>
+        <Section>A</Section>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-22</DateRequested>
@@ -180,6 +246,9 @@
 
     <Request studentID="23-00023">
         <StudentName>Jumao-as, Samantha O.</StudentName>
+        <Course>BSIT</Course>
+        <Year>3</Year>
+        <Section>B</Section>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-23</DateRequested>
@@ -188,6 +257,9 @@
 
     <Request studentID="23-00024">
         <StudentName>Maboloc, Mark Francis L.</StudentName>
+        <Course>BSCS</Course>
+        <Year>4</Year>
+        <Section>C</Section>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
         <DateRequested>2026-05-24</DateRequested>
@@ -196,6 +268,9 @@
 
     <Request studentID="23-00025">
         <StudentName>Madi, Jamerone O.</StudentName>
+        <Course>BSIT</Course>
+        <Year>1</Year>
+        <Section>A</Section>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-25</DateRequested>
@@ -204,6 +279,9 @@
 
     <Request studentID="23-00026">
         <StudentName>Manrique, Klarenz Cobie O.</StudentName>
+        <Course>BSCS</Course>
+        <Year>2</Year>
+        <Section>B</Section>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-26</DateRequested>
@@ -212,6 +290,9 @@
 
     <Request studentID="23-00027">
         <StudentName>Medrano, Graci Al Dei R.</StudentName>
+        <Course>BSIT</Course>
+        <Year>3</Year>
+        <Section>C</Section>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
         <DateRequested>2026-05-27</DateRequested>
@@ -220,6 +301,9 @@
 
     <Request studentID="23-00028">
         <StudentName>Merjilla, Aaron Christian P.</StudentName>
+        <Course>BSCS</Course>
+        <Year>4</Year>
+        <Section>A</Section>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-28</DateRequested>
@@ -228,6 +312,9 @@
 
     <Request studentID="23-00029">
         <StudentName>Modancia, John Chester Q.</StudentName>
+        <Course>BSIT</Course>
+        <Year>1</Year>
+        <Section>B</Section>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-29</DateRequested>
@@ -236,6 +323,9 @@
 
     <Request studentID="23-00030">
         <StudentName>Nefulda, Cenex V.</StudentName>
+        <Course>BSCS</Course>
+        <Year>2</Year>
+        <Section>C</Section>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
         <DateRequested>2026-05-30</DateRequested>
@@ -244,6 +334,9 @@
 
     <Request studentID="23-00031">
         <StudentName>Obligado, Michael Fransjie V.</StudentName>
+        <Course>BSIT</Course>
+        <Year>3</Year>
+        <Section>A</Section>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-31</DateRequested>
@@ -252,6 +345,9 @@
 
     <Request studentID="23-00032">
         <StudentName>Pasion, Ahron John T.</StudentName>
+        <Course>BSCS</Course>
+        <Year>4</Year>
+        <Section>B</Section>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-06-01</DateRequested>
@@ -260,6 +356,9 @@
 
     <Request studentID="23-00033">
         <StudentName>Piatos, Jesseroe Jr. P.</StudentName>
+        <Course>BSIT</Course>
+        <Year>1</Year>
+        <Section>C</Section>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
         <DateRequested>2026-06-02</DateRequested>
@@ -268,6 +367,9 @@
 
     <Request studentID="23-00034">
         <StudentName>Presas, Christian V.</StudentName>
+        <Course>BSCS</Course>
+        <Year>2</Year>
+        <Section>A</Section>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-06-03</DateRequested>
@@ -276,6 +378,9 @@
 
     <Request studentID="23-00035">
         <StudentName>Vidal, Allen Jamir E.</StudentName>
+        <Course>BSIT</Course>
+        <Year>3</Year>
+        <Section>B</Section>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-06-04</DateRequested>
