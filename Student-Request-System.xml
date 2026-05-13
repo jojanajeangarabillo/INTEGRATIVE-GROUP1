@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE StudentServicesRequestSystem SYSTEM "student.dtd">
-
 <StudentServicesRequestSystem>
 
-    <Request>
-        <StudentID>23-00001</StudentID>
+    <Request studentID="23-00001">
         <StudentName>Alay, Darryl John D.</StudentName>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
@@ -13,8 +10,7 @@
         <ReleaseDate>2026-05-03</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00002</StudentID>
+    <Request studentID="23-00002">
         <StudentName>Ang, Marc Louise M.</StudentName>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
@@ -22,8 +18,7 @@
         <ReleaseDate>2026-05-05</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00003</StudentID>
+    <Request studentID="23-00003">
         <StudentName>Antonio, Rhoanne Nicole R.</StudentName>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
@@ -31,8 +26,7 @@
         <ReleaseDate>2026-05-06</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00004</StudentID>
+    <Request studentID="23-00004">
         <StudentName>Avecilla, Carl Ruselle.</StudentName>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
@@ -40,8 +34,7 @@
         <ReleaseDate>2026-05-07</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00005</StudentID>
+    <Request studentID="23-00005">
         <StudentName>Belleza, Jose Miguel S.</StudentName>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
@@ -49,8 +42,7 @@
         <ReleaseDate>2026-05-08</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00006</StudentID>
+    <Request studentID="23-00006">
         <StudentName>Beringuela, Marc Ferdinand M.</StudentName>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
@@ -58,8 +50,7 @@
         <ReleaseDate>2026-05-09</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00007</StudentID>
+    <Request studentID="23-00007">
         <StudentName>Bermudez, Miguel Carlos R.</StudentName>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
@@ -67,8 +58,7 @@
         <ReleaseDate>2026-05-10</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00008</StudentID>
+    <Request studentID="23-00008">
         <StudentName>Bolotaolo, Lark L.</StudentName>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
@@ -76,8 +66,7 @@
         <ReleaseDate>2026-05-11</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00009</StudentID>
+    <Request studentID="23-00009">
         <StudentName>Cacho, Shane Ella Mae F.</StudentName>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
@@ -85,8 +74,7 @@
         <ReleaseDate>2026-05-12</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00010</StudentID>
+    <Request studentID="23-00010">
         <StudentName>Cajurao, Alexander Jr.</StudentName>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
@@ -94,8 +82,7 @@
         <ReleaseDate>2026-05-13</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00011</StudentID>
+    <Request studentID="23-00011">
         <StudentName>Campos, Charles Dustin M.</StudentName>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
@@ -103,8 +90,7 @@
         <ReleaseDate>2026-05-14</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00012</StudentID>
+    <Request studentID="23-00012">
         <StudentName>Castro, Charl Joven V.</StudentName>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
@@ -112,8 +98,7 @@
         <ReleaseDate>2026-05-15</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00013</StudentID>
+    <Request studentID="23-00013">
         <StudentName>Daliva, Joshua F.</StudentName>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
@@ -121,8 +106,7 @@
         <ReleaseDate>2026-05-16</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00014</StudentID>
+    <Request studentID="23-00014">
         <StudentName>Dantic, Rona Mae B.</StudentName>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
@@ -130,8 +114,7 @@
         <ReleaseDate>2026-05-17</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00015</StudentID>
+    <Request studentID="23-00015">
         <StudentName>Dawoud, Fares Wael Ibrahim P.</StudentName>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
@@ -139,8 +122,7 @@
         <ReleaseDate>2026-05-18</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00016</StudentID>
+    <Request studentID="23-00016">
         <StudentName>De Padua, Charles Jeramy C.</StudentName>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
@@ -148,8 +130,7 @@
         <ReleaseDate>2026-05-19</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00017</StudentID>
+    <Request studentID="23-00017">
         <StudentName>Eligio, Haley Ryan P.</StudentName>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
@@ -157,8 +138,7 @@
         <ReleaseDate>2026-05-20</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00018</StudentID>
+    <Request studentID="23-00018">
         <StudentName>Gallardo, Marvin D.</StudentName>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
@@ -166,8 +146,7 @@
         <ReleaseDate>2026-05-21</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00019</StudentID>
+    <Request studentID="23-00019">
         <StudentName>Garabillo, Jojana Jean B.</StudentName>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
@@ -175,8 +154,7 @@
         <ReleaseDate>2026-05-22</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00020</StudentID>
+    <Request studentID="23-00020">
         <StudentName>Guerrero, Ariuz Dean C.</StudentName>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
@@ -184,8 +162,7 @@
         <ReleaseDate>2026-05-23</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00021</StudentID>
+    <Request studentID="23-00021">
         <StudentName>Gutierrez, Jodie Lyn D.</StudentName>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
@@ -193,8 +170,7 @@
         <ReleaseDate>2026-05-24</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00022</StudentID>
+    <Request studentID="23-00022">
         <StudentName>Jaroda, Jhanna Rayne B.</StudentName>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
@@ -202,8 +178,7 @@
         <ReleaseDate>2026-05-25</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00023</StudentID>
+    <Request studentID="23-00023">
         <StudentName>Jumao-as, Samantha O.</StudentName>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
@@ -211,8 +186,7 @@
         <ReleaseDate>2026-05-26</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00024</StudentID>
+    <Request studentID="23-00024">
         <StudentName>Maboloc, Mark Francis L.</StudentName>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
@@ -220,8 +194,7 @@
         <ReleaseDate>2026-05-27</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00025</StudentID>
+    <Request studentID="23-00025">
         <StudentName>Madi, Jamerone O.</StudentName>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
@@ -229,8 +202,7 @@
         <ReleaseDate>2026-05-28</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00026</StudentID>
+    <Request studentID="23-00026">
         <StudentName>Manrique, Klarenz Cobie O.</StudentName>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
@@ -238,8 +210,7 @@
         <ReleaseDate>2026-05-29</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00027</StudentID>
+    <Request studentID="23-00027">
         <StudentName>Medrano, Graci Al Dei R.</StudentName>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
@@ -247,8 +218,7 @@
         <ReleaseDate>2026-05-30</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00028</StudentID>
+    <Request studentID="23-00028">
         <StudentName>Merjilla, Aaron Christian P.</StudentName>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
@@ -256,8 +226,7 @@
         <ReleaseDate>2026-05-31</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00029</StudentID>
+    <Request studentID="23-00029">
         <StudentName>Modancia, John Chester Q.</StudentName>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
@@ -265,8 +234,7 @@
         <ReleaseDate>2026-06-01</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00030</StudentID>
+    <Request studentID="23-00030">
         <StudentName>Nefulda, Cenex V.</StudentName>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
@@ -274,8 +242,7 @@
         <ReleaseDate>2026-06-02</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00031</StudentID>
+    <Request studentID="23-00031">
         <StudentName>Obligado, Michael Fransjie V.</StudentName>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
@@ -283,8 +250,7 @@
         <ReleaseDate>2026-06-03</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00032</StudentID>
+    <Request studentID="23-00032">
         <StudentName>Pasion, Ahron John T.</StudentName>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
@@ -292,8 +258,7 @@
         <ReleaseDate>2026-06-04</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00033</StudentID>
+    <Request studentID="23-00033">
         <StudentName>Piatos, Jesseroe Jr. P.</StudentName>
         <RequestType>Certificate</RequestType>
         <Status>Released</Status>
@@ -301,8 +266,7 @@
         <ReleaseDate>2026-06-05</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00034</StudentID>
+    <Request studentID="23-00034">
         <StudentName>Presas, Christian V.</StudentName>
         <RequestType>ID</RequestType>
         <Status>Pending</Status>
@@ -310,8 +274,7 @@
         <ReleaseDate>2026-06-06</ReleaseDate>
     </Request>
 
-    <Request>
-        <StudentID>23-00035</StudentID>
+    <Request studentID="23-00035">
         <StudentName>Vidal, Allen Jamir E.</StudentName>
         <RequestType>TOR</RequestType>
         <Status>Approved</Status>
