@@ -1,0 +1,17 @@
+<!ELEMENT StudentServicesRequestSystem (Request+)>
+
+<!ELEMENT Request (
+    StudentID,
+    StudentName,
+    RequestType,
+    Status,
+    DateRequested,
+    ReleaseDate
+)>
+
+<!ELEMENT StudentID (#PCDATA)>
+<!ELEMENT StudentName (#PCDATA)>
+<!ELEMENT RequestType (#PCDATA)>
+<!ELEMENT Status (#PCDATA)>
+<!ELEMENT DateRequested (#PCDATA)>
+<!ELEMENT ReleaseDate (#PCDATA)>
