@@ -1,17 +1,26 @@
+<!DOCTYPE StudentServicesRequestSystem [
+
 <!ELEMENT StudentServicesRequestSystem (Request+)>
 
 <!ELEMENT Request (
-    StudentID,
     StudentName,
+    Course,
+    Year,
+    Section,
     RequestType,
     Status,
     DateRequested,
     ReleaseDate
 )>
+<!ATTLIST Request studentID CDATA #REQUIRED>
 
-<!ELEMENT StudentID (#PCDATA)>
 <!ELEMENT StudentName (#PCDATA)>
+<!ELEMENT Course (#PCDATA)>
+<!ELEMENT Year (#PCDATA)>
+<!ELEMENT Section (#PCDATA)>
 <!ELEMENT RequestType (#PCDATA)>
 <!ELEMENT Status (#PCDATA)>
 <!ELEMENT DateRequested (#PCDATA)>
 <!ELEMENT ReleaseDate (#PCDATA)>
+
+]>
