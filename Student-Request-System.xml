@@ -10,6 +10,7 @@ root element for xsd validation
         http://www.studentservicesrequestsystem.org
         studentServicesRequestSystem.xsd">
 -->
+<?xml-stylesheet type="text/xsl" href="Student-Request-System.xsl"?>
 
 <StudentServicesRequestSystem>
 
