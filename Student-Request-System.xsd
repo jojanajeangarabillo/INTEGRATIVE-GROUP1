@@ -16,7 +16,7 @@
                         <xs:sequence>
 
                             <xs:element name="StudentName" type="xs:string"/>
-                            <xs:element name="Course" type="xs:string"/>    
+                            <xs:element name="Course" type="xs:string"/>
                             <xs:element name="Year" type="xs:positiveInteger"/>
                             <xs:element name="Section" type="xs:string"/>
 
@@ -48,6 +48,8 @@
                         <xs:attribute name="studentID"
                                       type="xs:string"
                                       use="required"/>
+
+                        <xs:assert test="ReleaseDate ge DateRequested"/>
 
                     </xs:complexType>
 
