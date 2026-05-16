@@ -3,7 +3,7 @@
 <xsl:stylesheet version="1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-<xsl:output method="html" indent="yes"/>
+<xsl:output method="html"/>
 
 <xsl:template match="/">
 
@@ -15,8 +15,8 @@
         body{
             margin:0;
             padding:0;
-            font-family: Arial, sans-serif;
-            background:#e6e6eb;
+            font-family: Arial, sans serif;
+            background: #f4f6fb;
         }
 
         .heading{
@@ -24,7 +24,7 @@
             padding:5px;
             background-color: white;
             font-size: 0.875rem;
-            border-bottom: 1px solid #1f5fa8;
+            border-bottom: 1px solid #185fa5;
         }
 
         .heading h1{
@@ -108,6 +108,7 @@
             font-size:14px;
             font-weight:bold;
             margin-bottom:10px;
+            color: #3f3f3f;
         }
 
         .card-number{
@@ -123,7 +124,7 @@
         }
 
         th{
-            background:#eea121;
+            background: #ef9f27;
             color:white;
             padding:18px 10px;
             font-size:15px;
@@ -139,19 +140,28 @@
         }
 
         tr:hover{
-            background:#f5f5f5;
+            background: #f5f5f5;
         }
 
         .approved-card{
-            background:#abd2ae;
+            background: #b5dfb9;
+            .card-number {
+                color: #13aa22;
+            }
         }
 
          .pending-card{
-            background:#efe1a9;
+            background: #fff3c1;
+            .card-number {
+                color: #ffcc00;
+            }
         }
 
         .released-card{
-            background:#efb0b0;
+            background: #febdbd;
+            .card-number {
+                color: #ff2828;
+            }
         }
 
     </style>
@@ -290,19 +300,19 @@
                         <xsl:choose>
 
                             <xsl:when test="Status='Approved'">
-                                <span class="approved">
+                                <span class="approved" style="color: #13aa22">
                                     <xsl:value-of select="Status"/>
                                 </span>
                             </xsl:when>
 
                             <xsl:when test="Status='Pending'">
-                                <span class="pending">
+                                <span class="pending" style="color: #ffcc00">
                                     <xsl:value-of select="Status"/>
                                 </span>
                             </xsl:when>
 
                             <xsl:otherwise>
-                                <span class="released">
+                                <span class="released" style="color: #ff2828">
                                     <xsl:value-of select="Status"/>
                                 </span>
                             </xsl:otherwise>
