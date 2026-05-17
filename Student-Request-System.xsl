@@ -44,7 +44,7 @@
         .card-container{
             display:flex;
             justify-content:space-between;
-            gap:20px;
+            gap:10px;
         }
 
         .subheading{
@@ -70,9 +70,10 @@
         }
 
         .subheading p{
-            color:#444;
+            color: #444;
             font-size:14px;
             margin:0;
+            font-style: italic;
         }
 
         .filter-row{
@@ -94,7 +95,7 @@
 
         .card{
             width:250px;
-            height:110px;
+            height:50px;
             border-radius:14px;
             margin:0 auto 18px auto;
             display:flex;
@@ -112,7 +113,7 @@
         }
 
         .card-number{
-            font-size:48px;
+            font-size:44px;
             font-weight:bold;
             line-height:50px;
         }
@@ -187,52 +188,59 @@
         <div class="subheading">
             <div class="subheading-text">
                     <span>System Overview</span>
-                    <p>Metrics blah blah blah</p>
+                    <p>Status Metrics</p>
             </div>
         </div>
 
         <div class="card-container">
-        <div class="card approved-card">
-            <span class="card-title">Approved</span>
-            <span class="card-number">
-                <xsl:value-of select="count(StudentServicesRequestSystem/Request[Status='Approved'])"/>
-            </span>
+            <div class="card approved-card">
+                <span class="card-title">Approved</span>
+                <span class="card-number">
+                    <xsl:value-of select="count(StudentServicesRequestSystem/Request[Status='Approved'])"/>
+                </span>
+            </div>
+            
+            <div class="card pending-card">
+                <span class="card-title">Pending</span>
+                <span class="card-number">
+                    <xsl:value-of select="count(StudentServicesRequestSystem/Request[Status='Pending'])"/>
+                </span>
+            </div>
+
+            <div class="card released-card">
+                <span class="card-title">Released</span>
+                <span class="card-number">
+                    <xsl:value-of select="count(StudentServicesRequestSystem/Request[Status='Released'])"/>
+                </span>
+            </div>
         </div>
         
-        <div class="card pending-card">
-            <span class="card-title">Pending</span>
-            <span class="card-number">
-                <xsl:value-of select="count(StudentServicesRequestSystem/Request[Status='Pending'])"/>
-            </span>
-        </div>
+            <div class="subheading">
+                <div class="subheading-text">
+                        <p>Document Type Metrics</p>
+                </div>
+            </div>
+        <div class="card-container">
+            <div class="card approved-card">
+                <span class="card-title">ID</span>
+                <span class="card-number">
+                    <xsl:value-of select="count(StudentServicesRequestSystem/Request[RequestType='ID'])"/>
+                </span>
+            </div>
 
-        <div class="card released-card">
-            <span class="card-title">Released</span>
-            <span class="card-number">
-                <xsl:value-of select="count(StudentServicesRequestSystem/Request[Status='Released'])"/>
-            </span>
-        </div>
+            <div class="card pending-card">
+                <span class="card-title">TOR</span>
+                <span class="card-number">
+                    <xsl:value-of select="count(StudentServicesRequestSystem/Request[RequestType='TOR'])"/>
+                </span>
+            </div>
 
-        <div class="card approved-card">
-            <span class="card-title">ID</span>
-            <span class="card-number">
-                <xsl:value-of select="count(StudentServicesRequestSystem/Request[RequestType='ID'])"/>
-            </span>
-        </div>
-
-        <div class="card pending-card">
-            <span class="card-title">TOR</span>
-            <span class="card-number">
-                <xsl:value-of select="count(StudentServicesRequestSystem/Request[RequestType='TOR'])"/>
-            </span>
-        </div>
-
-        <div class="card released-card">
-            <span class="card-title">Certificate</span>
-            <span class="card-number">
-                <xsl:value-of select="count(StudentServicesRequestSystem/Request[RequestType='Certificate'])"/>
-            </span>
-        </div>
+            <div class="card released-card">
+                <span class="card-title">Certificate</span>
+                <span class="card-number">
+                    <xsl:value-of select="count(StudentServicesRequestSystem/Request[RequestType='Certificate'])"/>
+                </span>
+            </div>
         </div>
 
 
