@@ -10,7 +10,7 @@
         <Year>1</Year>
         <Section>A</Section>
         <RequestType>ID</RequestType>
-        <Status>Pending</Status>
+        <Status>Approved</Status>
         <DateRequested>2026-05-01</DateRequested>
         <ReleaseDate>2026-05-03</ReleaseDate>
     </Request>
@@ -54,7 +54,7 @@
         <Year>1</Year>
         <Section>B</Section>
         <RequestType>TOR</RequestType>
-        <Status>Approved</Status>
+        <Status>Released</Status>
         <DateRequested>2026-05-05</DateRequested>
         <ReleaseDate>2026-05-08</ReleaseDate>
     </Request>
@@ -98,7 +98,7 @@
         <Year>1</Year>
         <Section>C</Section>
         <RequestType>Certificate</RequestType>
-        <Status>Released</Status>
+        <Status>Pending</Status>
         <DateRequested>2026-05-09</DateRequested>
         <ReleaseDate>2026-05-12</ReleaseDate>
     </Request>
@@ -119,7 +119,7 @@
         <Course>BSIT</Course>
         <Year>3</Year>
         <Section>B</Section>
-        <RequestType>TOR</RequestType>
+        <RequestType>ID</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-11</DateRequested>
         <ReleaseDate>2026-05-14</ReleaseDate>
@@ -174,7 +174,7 @@
         <Course>BSCS</Course>
         <Year>4</Year>
         <Section>A</Section>
-        <RequestType>ID</RequestType>
+        <RequestType>Certificate</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-16</DateRequested>
         <ReleaseDate>2026-05-19</ReleaseDate>
@@ -218,7 +218,7 @@
         <Course>BSCS</Course>
         <Year>4</Year>
         <Section>B</Section>
-        <RequestType>TOR</RequestType>
+        <RequestType>Certificate</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-20</DateRequested>
         <ReleaseDate>2026-05-23</ReleaseDate>
@@ -251,7 +251,7 @@
         <Course>BSIT</Course>
         <Year>3</Year>
         <Section>B</Section>
-        <RequestType>TOR</RequestType>
+        <RequestType>ID</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-23</DateRequested>
         <ReleaseDate>2026-05-26</ReleaseDate>
