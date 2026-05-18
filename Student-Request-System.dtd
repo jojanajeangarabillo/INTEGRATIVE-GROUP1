@@ -1,5 +1,3 @@
-<!DOCTYPE StudentServicesRequestSystem [
-
 <!ELEMENT StudentServicesRequestSystem (Request+)>
 
 <!ELEMENT Request (
@@ -22,5 +20,3 @@
 <!ELEMENT Status (#PCDATA)>
 <!ELEMENT DateRequested (#PCDATA)>
 <!ELEMENT ReleaseDate (#PCDATA)>
-
-]>

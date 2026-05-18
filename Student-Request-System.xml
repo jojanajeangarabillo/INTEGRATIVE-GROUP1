@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE StudentServicesRequestSystem SYSTEM "Student-Request-System.dtd">
 <?xml-stylesheet type="text/xsl" href="Student-Request-System.xsl"?>
+
+<!--
+<StudentServicesRequestSystem
+    xmlns="http://www.studentservicesrequestsystem.org"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.studentservicesrequestsystem.org
+        studentServicesRequestSystem.xsd"
+>
+-->
 
 <StudentServicesRequestSystem>
 
@@ -10,7 +20,7 @@
         <Year>1</Year>
         <Section>A</Section>
         <RequestType>ID</RequestType>
-        <Status>Approved</Status>
+        <Status>Pending</Status>
         <DateRequested>2026-05-01</DateRequested>
         <ReleaseDate>2026-05-03</ReleaseDate>
     </Request>
@@ -54,7 +64,7 @@
         <Year>1</Year>
         <Section>B</Section>
         <RequestType>TOR</RequestType>
-        <Status>Released</Status>
+        <Status>Approved</Status>
         <DateRequested>2026-05-05</DateRequested>
         <ReleaseDate>2026-05-08</ReleaseDate>
     </Request>
@@ -98,7 +108,7 @@
         <Year>1</Year>
         <Section>C</Section>
         <RequestType>Certificate</RequestType>
-        <Status>Pending</Status>
+        <Status>Released</Status>
         <DateRequested>2026-05-09</DateRequested>
         <ReleaseDate>2026-05-12</ReleaseDate>
     </Request>
@@ -119,7 +129,7 @@
         <Course>BSIT</Course>
         <Year>3</Year>
         <Section>B</Section>
-        <RequestType>ID</RequestType>
+        <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-11</DateRequested>
         <ReleaseDate>2026-05-14</ReleaseDate>
@@ -174,7 +184,7 @@
         <Course>BSCS</Course>
         <Year>4</Year>
         <Section>A</Section>
-        <RequestType>Certificate</RequestType>
+        <RequestType>ID</RequestType>
         <Status>Pending</Status>
         <DateRequested>2026-05-16</DateRequested>
         <ReleaseDate>2026-05-19</ReleaseDate>
@@ -218,7 +228,7 @@
         <Course>BSCS</Course>
         <Year>4</Year>
         <Section>B</Section>
-        <RequestType>Certificate</RequestType>
+        <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-20</DateRequested>
         <ReleaseDate>2026-05-23</ReleaseDate>
@@ -251,7 +261,7 @@
         <Course>BSIT</Course>
         <Year>3</Year>
         <Section>B</Section>
-        <RequestType>ID</RequestType>
+        <RequestType>TOR</RequestType>
         <Status>Approved</Status>
         <DateRequested>2026-05-23</DateRequested>
         <ReleaseDate>2026-05-26</ReleaseDate>
